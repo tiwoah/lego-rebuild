@@ -20,9 +20,13 @@ const Landing = () => {
       <Image
         src={banner1}
         alt="lego person"
-        className="z-10 my-auto object-contain xl:justify-self-end"
+        className="z-10 my-auto object-contain xl:justify-self-end xl:mr-10"
         height={275}
-        placeholder="blur"
+        width={268}
+        style={{
+          width: 268,
+          height: 275,
+        }}
       />
 
       <div className="z-10 grid grid-rows-3 gap-6 max-w-[60%] xl:max-w-none">
@@ -47,7 +51,7 @@ const Landing = () => {
       <Image
         src={banner2}
         alt="lego person"
-        className="hidden z-10 my-auto object-contain justify-self-start max-w-96 xl:block"
+        className="hidden z-10 my-auto object-contain justify-self-start max-w-96 xl:block xl:ml-10"
         height={275}
       />
     </div>

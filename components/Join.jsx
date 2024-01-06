@@ -15,7 +15,7 @@ const Join = ({ isCTA }) => {
       </div>
     </button>
   ) : (
-    <button className="rounded-[0.625rem] bg-yellow-400 text-yellow-900 px-2 font-bold text-sm  hover:bg-yellow-500">
+    <button className="rounded-[0.625rem] bg-yellow-400 text-yellow-900 px-3 font-bold text-sm  hover:bg-yellow-500">
       Join now
     </button>
   );

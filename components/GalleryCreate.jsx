@@ -1,9 +1,6 @@
 "use client";
 
 import React from "react";
-import Image from "next/image";
-import Link from "next/link";
-import { usePathname } from "next/navigation";
 
 import divider from "../public/images/divider.svg";
 import GalleryNavgiation from "./GalleryNavgiation";

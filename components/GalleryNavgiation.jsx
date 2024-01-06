@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
@@ -27,13 +26,13 @@ const GalleryNavgiation = () => {
   ];
 
   return (
-    <nav className="w-full h-fit px-40 pt-20 flex flex-row gap-2">
+    <nav className="w-full max-w-[85rem] mx-auto h-fit pt-20 flex flex-row gap-2">
       {items.map((item, i) => (
         <Link href={item.url} key={item.url} scroll={false} className="h-fit">
           <button
             className={`${
               pathname === item.url
-                ? "bg-blue-500"
+                ? "bg-blue-500 text-white"
                 : "bg-transparent hover:bg-black/40"
             }  rounded-[0.75rem] p-3 font-semibold ${
               pathname === items[1].url ? "text-black" : "text-white"
