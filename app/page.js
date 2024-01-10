@@ -1,5 +1,6 @@
 import Gallery from "@/components/GalleryPlay";
 import Landing from "@/components/Landing";
+import MoreToExplore from "@/components/MoreToExplore";
 import Videos from "@/components/Videos";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <Landing />
       <Gallery />
       <Videos />
+      <MoreToExplore />
     </main>
   );
 }

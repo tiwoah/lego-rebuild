@@ -37,13 +37,6 @@ const GalleryPlay = () => {
             <GalleryPlayCard />
             <GalleryPlayCard />
           </div>
-          {/* <GalleryPlayCard />
-          <GalleryPlayCardCTA />
-          <GalleryPlayCard />
-
-          <GalleryPlayCard />
-          <GalleryPlayCard />
-          <GalleryPlayCard /> */}
         </div>
       </div>
     </div>

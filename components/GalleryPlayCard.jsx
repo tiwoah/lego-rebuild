@@ -6,7 +6,7 @@ const GalleryPlayCard = () => {
     <Link
       href=""
       scroll={false}
-      className="bg-white w-full h-[330px] rounded-2xl drop-shadow-[-0px_6px_6px_rgba(0,0,0,0.4)] transform transition duration-300 hover:scale-[102%] overflow-hidden"
+      className="bg-white w-full h-[330px] rounded-2xl drop-shadow-[-0px_6px_6px_rgba(0,0,0,0.4)] transform transition duration-200 hover:scale-[102%] hover:drop-shadow-[-0px_12px_12px_rgba(0,0,0,0.6)] overflow-hidden"
     >
       <article className="w-full h-full">
         <div className="bg-white w-full h-full rounded-2xl flex flex-col">
