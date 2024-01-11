@@ -26,16 +26,28 @@ const GalleryPlay = () => {
       <div className="w-full h-full px-20 bg-gradient-to-r from-white to-blue-200 flex justify-center">
         <div className="w-full h-full max-w-[85rem] pt-32 grid grid-cols-1 gap-7 pb-40 sm:grid-cols-2 lg:grid-cols-3">
           <div className="flex flex-col gap-7 mt-6">
-            <GalleryPlayCard />
-            <GalleryPlayCard />
+            <GalleryPlayCard
+              title="LEGO® Fortnite®"
+              imgPath={"/images/fortnite-thumbnail.webp"}
+            />
+            <GalleryPlayCard
+              title="Ready for a dance-off? Let’s go!"
+              subtitle="Gaming"
+            />
           </div>
           <div className="flex flex-col gap-7">
             <GalleryPlayCardCTA />
-            <GalleryPlayCard />
+            <GalleryPlayCard
+              title="Play the NEW Crystalized game!"
+              subtitle="Gaming"
+            />
           </div>
           <div className="flex flex-col gap-7 mt-2">
-            <GalleryPlayCard />
-            <GalleryPlayCard />
+            <GalleryPlayCard title="Unlock new trophies and creative skills with Salina!" />
+            <GalleryPlayCard
+              title="NEW GAME: Dive into brick-built worlds to solve Alice's mystery adventure!"
+              subtitle="Gaming"
+            />
           </div>
         </div>
       </div>
