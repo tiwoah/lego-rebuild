@@ -4,7 +4,7 @@ This is a rebuild/clone from scratch of the [LEGO PLAY ZONE website](https://kid
 
 ## Demo
 
-[↗ Live Demo]
+[↗ Live Demo](https://lego-rebuild.vercel.app/play)
 
 ## Installation
 
@@ -34,4 +34,4 @@ yarn dev
 
 ## Showcase
 
-![Showcase](readme\showcase.png)
+![Showcase](readme/showcase.png)
