@@ -33,6 +33,7 @@ const GalleryPlay = () => {
             <GalleryPlayCard
               title="Ready for a dance-off? Let’s go!"
               subtitle="Gaming"
+              imgPath={"/images/Friends_CTA_static_promotion_front_page.webp"}
             />
           </div>
           <div className="flex flex-col gap-7">
@@ -40,13 +41,18 @@ const GalleryPlay = () => {
             <GalleryPlayCard
               title="Play the NEW Crystalized game!"
               subtitle="Gaming"
+              imgPath={"/images/Arcade_Crystalized.webp"}
             />
           </div>
           <div className="flex flex-col gap-7 mt-2">
-            <GalleryPlayCard title="Unlock new trophies and creative skills with Salina!" />
+            <GalleryPlayCard
+              title="Unlock new trophies and creative skills with Salina!"
+              imgPath={"/images/Salina_Masterclass_Group_Thumbnail.webp"}
+            />
             <GalleryPlayCard
               title="NEW GAME: Dive into brick-built worlds to solve Alice's mystery adventure!"
               subtitle="Gaming"
+              imgPath={"/images/KeyArt.webp"}
             />
           </div>
         </div>

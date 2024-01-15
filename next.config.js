@@ -17,4 +17,7 @@ module.exports = {
       },
     ];
   },
+  images: {
+    domains: ["www.lego.com"],
+  },
 };

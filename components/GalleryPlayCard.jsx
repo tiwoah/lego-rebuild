@@ -5,7 +5,7 @@ import React from "react";
 const GalleryPlayCard = ({
   title = "Title",
   imgPath,
-  alt,
+  alt = "Thumbnail",
   subtitle = "Featured",
 }) => {
   return (
@@ -23,6 +23,7 @@ const GalleryPlayCard = ({
                 src={imgPath}
                 fill={true}
                 style={{ objectFit: "cover" }}
+                sizes="(max-width: 768px) 40vw, (max-width: 1200px) 50vw, 33vw"
               />
             )}
           </div>

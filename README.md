@@ -1,10 +1,10 @@
 # LEGO Rebuild
 
-This is a rebuild/clone of the [LEGO PLAY ZONE website](https://kids.lego.com) using Next.js and TailwindCSS.
+This is a rebuild/clone from scratch of the [LEGO PLAY ZONE website](https://kids.lego.com) using Next.js and TailwindCSS.
 
 ## Demo
 
-[↗ Live Demo](https://kids.lego.com)
+[↗ Live Demo]
 
 ## Installation
 
@@ -33,3 +33,5 @@ yarn dev
 4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## Showcase
+
+![Showcase](readme\showcase.png)
